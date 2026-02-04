@@ -1,0 +1,38 @@
+# Deployment Configuration Template
+
+# Server IP (public IP of your server)
+server_ip: "0.0.0.0"
+
+# Obfuscation parameters
+obfuscation:
+  # Junk packets
+  jc: 6          # Junk packet count (recommended 4-12)
+  jmin: 50       # Minimum junk packet size
+  jmax: 1000     # Maximum junk packet size
+  
+  # Message paddings
+  s1: 0          # Init packet padding
+  s2: 0          # Response packet padding
+  s3: 0          # Cookie packet padding
+  s4: 0          # Transport packet padding
+  
+  # Message headers (optional, format: "min-max" or "value")
+  h1: ""
+  h2: ""
+  h3: ""
+  h4: ""
+  
+  # Custom signature packets (optional)
+  i1: ""
+  i2: ""
+  i3: ""
+  i4: ""
+  i5: ""
+  
+  # API Key for authentication (optional but recommended)
+  api_key: ""
+
+# Port allocation
+port_range:
+  start: 50000
+  end: 60000
