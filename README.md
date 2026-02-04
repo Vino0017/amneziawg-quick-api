@@ -1,9 +1,10 @@
-# AmneziaWG Manager
+# AmneziaWG Quick API
 
-**AmneziaWG 用户管理 API** | AmneziaWG User Management API
+**AmneziaWG 快速用户管理 API** | AmneziaWG Quick User Management API
 
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)](https://www.docker.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![GitHub](https://img.shields.io/github/stars/Vino0017/amneziawg-quick-api?style=social)](https://github.com/Vino0017/amneziawg-quick-api)
 
 一个基于 Docker 的 AmneziaWG VPN 用户管理系统，通过 RESTful API 实现用户的创建、删除和配置管理。
 
@@ -39,8 +40,8 @@ A Docker-based AmneziaWG VPN user management system with RESTful API for user cr
 ### 一键部署 / One-Click Deploy
 
 ```bash
-git clone https://github.com/your-username/amneziawg-manager.git
-cd amneziawg-manager
+git clone https://github.com/Vino0017/amneziawg-quick-api.git
+cd amneziawg-quick-api
 ./install.sh --ip <YOUR_SERVER_IP>
 ```
 
